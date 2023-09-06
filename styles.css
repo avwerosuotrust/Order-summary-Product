@@ -16,7 +16,7 @@
   }
   .mini-container{
     background-color: white;
-    width: 400px;
+    width: 370px;
     text-align: center;
     border-radius: 20px;
     display: flex;
@@ -48,9 +48,9 @@
   .annual{
     background-color:  hsl(225, 100%, 98%);
     border-radius: 10px;
-    width: 370px;
+    width: 330px;
     margin-top: 15px;
-    padding: 25px;
+    padding: 20px;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -58,10 +58,9 @@
 
   .price{
     width: 60%;
-    height: auto;
     display: flex;
-    justify-content: space-around;
-    align-items: center;
+    justify-content: space-between;
+    align-items: flex-start;
   }
 
   .link{
@@ -72,6 +71,11 @@
   .plan{
     font-size: 20px;
     line-height: 1.1;
+  }
+
+  span{
+    opacity: 0.5;
+    font-size: 18px;
   }
 
   .boldtext{
@@ -94,7 +98,7 @@
     color: white;
     text-decoration: none;
     border-radius: 10px;
-    width: 370px;
+    width: 330px;
     box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
   }
 
